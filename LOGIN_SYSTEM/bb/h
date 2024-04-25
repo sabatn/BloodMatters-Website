@@ -1,0 +1,28 @@
+<form method="post">
+    <div class="form-group">
+        <label for="Type_ID">Type_ID</label>
+        <input type="text" name="Type_ID" class="form-control" value="<?php echo isset($row['Type_ID']) ? $row['Type_ID'] : ''; ?>">
+    </div>
+    <div class="form-group">
+        <label for="Blood_Type">Blood_Type</label>
+        <input type="text" name="Blood_Type" class="form-control" value="<?php echo isset($row['Blood_Type']) ? $row['Blood_Type'] : ''; ?>">
+    </div>
+
+    <div class="form-group">
+        <label for="Availability">Availability</label>
+        <input type="text" name="Availability" class="form-control" value="<?php echo isset($row['Availability']) ? $row['Availability'] : ''; ?>">
+    </div>
+    <div class="form-group">
+        <label for="Location">Location</label>
+        <input type="text" name="Location" class="form-control" value="<?php echo isset($row['Location']) ? $row['Location'] : ''; ?>">
+    </div>
+    <div class="form-group">
+        <label for="Contact_No">Contact_No</label>
+        <input type="text" name="Contact_No" class="form-control" value="<?php echo isset($row['Contact_No']) ? $row['Contact_No'] : ''; ?>">
+    </div>
+    <div class="form-group">
+        <label for="Expiry_Date">Expiry_Date</label>
+        <input type="text" name="Expiry_Date" class="form-control" value="<?php echo isset($row['Expiry_Date']) ? $row['Expiry_Date'] : ''; ?>">
+    </div>
+    <input type="submit" name="update_blood bank" class="btn btn-success" value="UPDATE">
+</form>

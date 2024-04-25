@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    background-color: rgb(41, 130, 168);
+    color: rgb(97, 8, 8);
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+#form{
+    margin-top: 80px;
+    padding: 10px 10px;
+}
+

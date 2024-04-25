@@ -1,0 +1,20 @@
+body {
+    background-image: url("getwell.webp");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: 400px 400px;
+}
+
+#main_title{
+    text-align: center;
+    background-color: powderblue;
+    color: blue;
+    padding: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+
+}
+
+
+
